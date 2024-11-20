@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7e21019178c6d79a0415db70bd7329e6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7e21019178c6d79a0415db70bd7329e6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7e21019178c6d79a0415db70bd7329e6 = L.map(
+                "map_7e21019178c6d79a0415db70bd7329e6",
+                {
+                    center: [4.570868, -74.297333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b2b92d4cb165e1ec7bfbb8b41d8c3c27 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b2b92d4cb165e1ec7bfbb8b41d8c3c27.addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var marker_6027e214c6528e149d30f80cb4ea1f0a = L.marker(
+                [4.711, -74.0721],
+                {}
+            ).addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var icon_911687e587d79a28c390dd873af56625 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6027e214c6528e149d30f80cb4ea1f0a.setIcon(icon_911687e587d79a28c390dd873af56625);
+        
+    
+        var popup_907b9516e3d95dd9f45a15b2896bb741 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_180d142f717a56b052172b180952be41 = $(`<div id="html_180d142f717a56b052172b180952be41" style="width: 100.0%; height: 100.0%;">Bogotá: Modernización tecnológica y ciberseguridad en la administración pública</div>`)[0];
+                popup_907b9516e3d95dd9f45a15b2896bb741.setContent(html_180d142f717a56b052172b180952be41);
+            
+        
+
+        marker_6027e214c6528e149d30f80cb4ea1f0a.bindPopup(popup_907b9516e3d95dd9f45a15b2896bb741)
+        ;
+
+        
+    
+    
+            var marker_9c06a6a6e07cbf3e2ecffc9a204c1957 = L.marker(
+                [6.2442, -75.5812],
+                {}
+            ).addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var icon_ebfcb0ea0adc1d7f81d5ed8e61574e3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c06a6a6e07cbf3e2ecffc9a204c1957.setIcon(icon_ebfcb0ea0adc1d7f81d5ed8e61574e3f);
+        
+    
+        var popup_4a14a0db1ff71ffac45f386244da484d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91fbb9378fda0e1ab2e833cedfee9b8d = $(`<div id="html_91fbb9378fda0e1ab2e833cedfee9b8d" style="width: 100.0%; height: 100.0%;">Medellín: Integración de ciberseguridad en programas educativos y administración pública</div>`)[0];
+                popup_4a14a0db1ff71ffac45f386244da484d.setContent(html_91fbb9378fda0e1ab2e833cedfee9b8d);
+            
+        
+
+        marker_9c06a6a6e07cbf3e2ecffc9a204c1957.bindPopup(popup_4a14a0db1ff71ffac45f386244da484d)
+        ;
+
+        
+    
+    
+            var marker_fc431616a96106fe799cbeff85c8a7c1 = L.marker(
+                [4.866, -74.043],
+                {}
+            ).addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var icon_4206a7d107ac07284bc8703bd0259ff1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc431616a96106fe799cbeff85c8a7c1.setIcon(icon_4206a7d107ac07284bc8703bd0259ff1);
+        
+    
+        var popup_2c03c477ffc5d98d5ccf1c32efd1f220 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1b9347cc23b815051be1f8dc9ef2305 = $(`<div id="html_a1b9347cc23b815051be1f8dc9ef2305" style="width: 100.0%; height: 100.0%;">Cundinamarca: Planes de seguridad digital para infraestructuras críticas y capacitación</div>`)[0];
+                popup_2c03c477ffc5d98d5ccf1c32efd1f220.setContent(html_a1b9347cc23b815051be1f8dc9ef2305);
+            
+        
+
+        marker_fc431616a96106fe799cbeff85c8a7c1.bindPopup(popup_2c03c477ffc5d98d5ccf1c32efd1f220)
+        ;
+
+        
+    
+    
+            var marker_f35f69a940f105f9f508089a33c9d992 = L.marker(
+                [10.9685, -74.7813],
+                {}
+            ).addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var icon_85f11af690450d95baf0868ce327e5aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f35f69a940f105f9f508089a33c9d992.setIcon(icon_85f11af690450d95baf0868ce327e5aa);
+        
+    
+        var popup_d93dc1588db8e9e43f88ad3765068a74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e6aaff7f6bb72b598398a4ae0f4205e = $(`<div id="html_1e6aaff7f6bb72b598398a4ae0f4205e" style="width: 100.0%; height: 100.0%;">Barranquilla: Implementación de ciberseguridad en proyectos de tecnología digital</div>`)[0];
+                popup_d93dc1588db8e9e43f88ad3765068a74.setContent(html_1e6aaff7f6bb72b598398a4ae0f4205e);
+            
+        
+
+        marker_f35f69a940f105f9f508089a33c9d992.bindPopup(popup_d93dc1588db8e9e43f88ad3765068a74)
+        ;
+
+        
+    
+    
+            var marker_b053303568b1471e58cd641a03c54852 = L.marker(
+                [10.391, -75.4794],
+                {}
+            ).addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var icon_49f37249032cff4e51c2c9842c5e322b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b053303568b1471e58cd641a03c54852.setIcon(icon_49f37249032cff4e51c2c9842c5e322b);
+        
+    
+        var popup_1f07d4c1b8d644f7eb08e915e211795b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d96c93f5a8969d977fafceb3b98bfa27 = $(`<div id="html_d96c93f5a8969d977fafceb3b98bfa27" style="width: 100.0%; height: 100.0%;">Cartagena: Protección de sistemas de información para empresas y turistas</div>`)[0];
+                popup_1f07d4c1b8d644f7eb08e915e211795b.setContent(html_d96c93f5a8969d977fafceb3b98bfa27);
+            
+        
+
+        marker_b053303568b1471e58cd641a03c54852.bindPopup(popup_1f07d4c1b8d644f7eb08e915e211795b)
+        ;
+
+        
+    
+    
+            var marker_e1da721c51a9bccadba338eccf5bbf30 = L.marker(
+                [3.4516, -76.532],
+                {}
+            ).addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var icon_ebdb168a56fccb8f562536dc772da333 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e1da721c51a9bccadba338eccf5bbf30.setIcon(icon_ebdb168a56fccb8f562536dc772da333);
+        
+    
+        var popup_6a3b9a72877547200e1f1daad3edc003 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b791b375773b5c50844a34ae310f2a = $(`<div id="html_69b791b375773b5c50844a34ae310f2a" style="width: 100.0%; height: 100.0%;">Cali: Integración de ciberseguridad en gestión y servicios digitales</div>`)[0];
+                popup_6a3b9a72877547200e1f1daad3edc003.setContent(html_69b791b375773b5c50844a34ae310f2a);
+            
+        
+
+        marker_e1da721c51a9bccadba338eccf5bbf30.bindPopup(popup_6a3b9a72877547200e1f1daad3edc003)
+        ;
+
+        
+    
+    
+            var marker_932faf7a80638d4f0fba13200d464eaf = L.marker(
+                [5.6947, -76.6611],
+                {}
+            ).addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var icon_930affe1e22991d2b4ae739befb9f8d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_932faf7a80638d4f0fba13200d464eaf.setIcon(icon_930affe1e22991d2b4ae739befb9f8d5);
+        
+    
+        var popup_6c91fc11a48d31e7061547244e3ee3a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90f656bd676724c29b6828c71ecfeee7 = $(`<div id="html_90f656bd676724c29b6828c71ecfeee7" style="width: 100.0%; height: 100.0%;">Chocó: Integración de ciberseguridad en planes de desarrollo para nuevas infraestructuras</div>`)[0];
+                popup_6c91fc11a48d31e7061547244e3ee3a4.setContent(html_90f656bd676724c29b6828c71ecfeee7);
+            
+        
+
+        marker_932faf7a80638d4f0fba13200d464eaf.bindPopup(popup_6c91fc11a48d31e7061547244e3ee3a4)
+        ;
+
+        
+    
+    
+            var marker_dfaf2fc691ace32dac5a650ea19253b3 = L.marker(
+                [4.142, -73.6266],
+                {}
+            ).addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var icon_89fced9e79fbefedaf33f8306f08e2c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfaf2fc691ace32dac5a650ea19253b3.setIcon(icon_89fced9e79fbefedaf33f8306f08e2c6);
+        
+    
+        var popup_e75e13b710f5f1ee7063800f4cfffbac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01fd19c512f5b09b44b026bc2c14b2e2 = $(`<div id="html_01fd19c512f5b09b44b026bc2c14b2e2" style="width: 100.0%; height: 100.0%;">Villavicencio: Mejora de infraestructura digital con énfasis en ciberseguridad</div>`)[0];
+                popup_e75e13b710f5f1ee7063800f4cfffbac.setContent(html_01fd19c512f5b09b44b026bc2c14b2e2);
+            
+        
+
+        marker_dfaf2fc691ace32dac5a650ea19253b3.bindPopup(popup_e75e13b710f5f1ee7063800f4cfffbac)
+        ;
+
+        
+    
+    
+            var marker_eab854ca32382d0c692c29fbb4801778 = L.marker(
+                [-4.215, -69.9406],
+                {}
+            ).addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var icon_0fd38a76e7feab14707fe62b95166c51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eab854ca32382d0c692c29fbb4801778.setIcon(icon_0fd38a76e7feab14707fe62b95166c51);
+        
+    
+        var popup_f68652c5632907bc6cd76fad6c5a36b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12dc3981cbd3239b3a890374c369f5b0 = $(`<div id="html_12dc3981cbd3239b3a890374c369f5b0" style="width: 100.0%; height: 100.0%;">Leticia: Protección de datos ambientales y comunitarios en la digitalización de servicios</div>`)[0];
+                popup_f68652c5632907bc6cd76fad6c5a36b7.setContent(html_12dc3981cbd3239b3a890374c369f5b0);
+            
+        
+
+        marker_eab854ca32382d0c692c29fbb4801778.bindPopup(popup_f68652c5632907bc6cd76fad6c5a36b7)
+        ;
+
+        
+    
+    
+            var marker_cbebbe26d8d6433d69c38e5e70aceffa = L.marker(
+                [7.085, -70.7591],
+                {}
+            ).addTo(map_7e21019178c6d79a0415db70bd7329e6);
+        
+    
+            var icon_0a87eadb2abb48d4b4b7c7fc2a332c59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cbebbe26d8d6433d69c38e5e70aceffa.setIcon(icon_0a87eadb2abb48d4b4b7c7fc2a332c59);
+        
+    
+        var popup_453a7981df728e2261a8478c109e7154 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9fd7d8676224b061ffe477dba378a1c = $(`<div id="html_f9fd7d8676224b061ffe477dba378a1c" style="width: 100.0%; height: 100.0%;">Arauca: Mejoras en infraestructura digital con enfoque en comunicaciones y sistemas de información</div>`)[0];
+                popup_453a7981df728e2261a8478c109e7154.setContent(html_f9fd7d8676224b061ffe477dba378a1c);
+            
+        
+
+        marker_cbebbe26d8d6433d69c38e5e70aceffa.bindPopup(popup_453a7981df728e2261a8478c109e7154)
+        ;
+
+        
+    
+</script>
+</html>
